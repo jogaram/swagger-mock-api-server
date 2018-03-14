@@ -27,6 +27,7 @@ const command = require('yargs')
 
                     if (!fs.existsSync(filePath)) {
                         console.error(`File ${filePath} does not exist`);
+                        this.help()
                         process.exit(1);
                     }
 
@@ -40,5 +41,5 @@ const command = require('yargs')
     )
     .demandCommand(1, 'Specify command to run')
     .help()
-    .showHelpOnFail()
+    .showHelpOnFail(true)
     .argv;
