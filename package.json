@@ -1,6 +1,6 @@
 {
     "name": "swagger-mock-api-server",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Swagger file reader and mock server provider for command line",
     "main": "index.js",
     "bin": {
