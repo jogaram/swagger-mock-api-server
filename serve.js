@@ -1,6 +1,5 @@
 const express = require('express');
 const middleware = require('swagger-express-middleware');
-const swaggerMockApi = require('swagger-mock-api');
 const app = express();
 
 function serve(host, port, swaggerFile) {
